@@ -7,6 +7,7 @@ const scroll = new LocomotiveScroll({
  
  var crsr = document.querySelector(".cursor")
 
+
  vdCon.addEventListener("mouseenter", function(){
     gsap.to(crsr,{
         opacity : 1,
@@ -41,3 +42,70 @@ const scroll = new LocomotiveScroll({
     duration:0.5,
     // stagger:0.3
  })
+
+ var h = document.querySelector(".page5 h1")
+ var btn = document.querySelector("#task1")
+
+ var btn1 = document.querySelector("#task2")
+
+ var btn2 = document.querySelector("#task3")
+
+ var btn3 = document.querySelector("#task4")
+
+ var btn4 = document.querySelector("#task5")
+
+ var btn5 = document.querySelector("#task6")
+
+ var btn6 = document.querySelector("#task7")
+
+ var btn7 = document.querySelector("#task8")
+
+ var btn8 = document.querySelector("#task9")
+
+ var btn8 = document.querySelector("#task10")
+ 
+
+
+
+ btn.addEventListener("click", function(){
+      h.textContent = " Thank you so very muchfor the beautiful giftpacks; my heart melted. Inearly cried when Iopened one; I can onlyimagine how the womenin the shelters feel whenthey receive such a gift."
+
+ })
+
+ btn1.addEventListener("click", function(){
+   h.textContent = "Thank you for the amazing experience! Excellent service, great quality, and outstanding support. Highly recommended—truly appreciated! Will return for sure. "
+
+})
+
+
+btn2.addEventListener("click", function(){
+   h.textContent = "Great design, easy to navigate, and very informative. Highly recommended!"
+
+})
+
+btn3.addEventListener("click", function(){
+   h.textContent = " Thank you so very muchfor the beautiful giftpacks; my heart melted. Inearly cried when Iopened one; I can onlyimagine how the womenin the shelters feel whenthey receive such a gift."
+
+})
+btn4.addEventListener("click", function(){
+   h.textContent = "Excellent service, great quality, Highly recommended appreciated! Will return for sure. "
+
+})
+btn5.addEventListener("click", function(){
+   
+      h.textContent = "Highly recommended appreciated! Will return for sure. "
+   
+   })
+ 
+btn6.addEventListener("click", function(){
+   h.textContent = " Thank you so very muchfor the beautiful giftpacks; my heart melted. Inearly cried when Iopened one; I can onlyimagine how the womenin the shelters feel whenthey receive such a gift."
+
+})
+ 
+btn7.addEventListener("click", function(){
+   h.textContent = "my heart melted. Inearly cried when Iopened one; I can onlyimagine how the womenin the shelters feel whenthey receive such a gift."
+
+})
+ 
+
+ 

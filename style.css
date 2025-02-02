@@ -270,10 +270,235 @@ nav {
 /* page4 ending */
 
 .page5 {
-  height: 100vh;
+  min-height: 180vh;
   width: 100%;
   background-color: #f6f6f6;
+  padding-top: 3vw;
 }
+
+.page5 .btn-container {
+  height: 18vh;
+  width: 100%;
+  /* background-color: #8AAAD6; */
+  /* margin-top: 3.6vw; */
+  display: flex; /* Flexbox use karein */
+  overflow-x: auto; /* Horizontal scrolling enable karein */
+  white-space: nowrap; /* Content ko ek line me rakhne ke liye */
+  gap: 10px; /* Buttons ke beech spacing ke liye */
+  padding: 10px; /* Scrollbar ke liye thoda padding */
+  padding-left: 2vw;
+
+  scroll-behavior: smooth;
+   
+}
+.btn-container button{
+  background-color: transparent;
+  height: 7vw;
+  font-weight: 600;
+  width: 10vw;
+  font-size: 2vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  margin-left: 5vw;
+  padding-left: 3vw;
+
+
+}
+.h-div{
+  padding: 0vw 3vw 2vw 3vw;
+}
+.page5 .btn-container::-webkit-scrollbar {
+  display: none;
+}
+.btn-container button:hover{
+  color: rgba(0, 0, 0, 0.651);
+}
+.page5 h1{
+  font-family: one;
+  font-size: 5vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 4vw;
+}
+ #mssg{
+  font-size: 1vw;
+  padding: 1.5vw 4vw;
+  border-radius: 50px;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-left: 39vw;
+  margin-top: 5vw;
+  
+ }
+ .page5 p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3vw;
+ }
+
+ /* page5 ending */
+
+
+ .page6{
+  height: 112vh;
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  padding: 0vw 2.5vw 2vw 2vw;
+  justify-content: space-between;
+  gap: 1.5vw;
+ }
+ .three-con{
+  height: 100vh;
+  width: calc(100% - 33%);
+  /* background-color: seagreen; */
+  overflow: hidden;
+ }
+ .three-con img{
+  height: 100%;
+  /* width: 100%; */
+  background-size: contain;
+  background-position: left;
+ }
+ .three-con:nth-child(1){
+  background-color: transparent;
+  padding-right: 11.5vw;
+  /* padding-top: 20px; */
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .three-con h3{
+  font-size: 1.8vw;
+  font-family: one;
+  margin-bottom: 3vw;
+   
+ }
+ .three-con p{
+  font-size: 1.2vw;
+  font-weight: 500;
+  line-height: 1.5vw;
+ }
+ .three-con button{
+  margin-top: 3.6vw;
+  border-bottom: 1px solid #111;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #f6f6f6;
+  outline: none;
+  outline: none;
+  /* border: none; */
+  font-size: 0.9vw;
+  transition: all ease 0.2s;
+  padding-bottom: 7px;
+ }
+ .three-con button:hover{
+  color: #111111b2;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid #111;
+ }
+
+ .addr{
+  height: 10vh;
+  background-color: #f6f6f6;
+  width: 100%;
+  /* background-color: seagreen; */
+  padding: 0vw 1.5vw 0vw 1.5vw;
+  /* border-bottom: 1px solid #111; */
+ }
+ .addr  input{
+  height: 100%;
+  width: 100%;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /* padding-left: 1vw; */
+  outline: none;
+  font-size: 2.8vw;
+  font-weight: 900;
+  text-transform: uppercase;
+ }
+ ::-webkit-input-placeholder{
+  color: black;
+  font-weight: 900;
+ }
+ /* page6 ending */
+
+ .page7{
+  height: 130vh;
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 12vw 2vw 2vw 2vw;
+ }
+ .foot-con{
+  height:35vh;
+  width: 100%;
+  /* margin-top: 9vw; */
+  /* background-color: seagreen; */
+  display: flex;
+  justify-content: space-between;
+ }
+ .footer-box{
+  height: 100%;
+  width: 23vw;
+  /* background: orange ; */
+ }
+ .footer-box img{
+  height: 60%;
+  overflow: hidden;
+  background-position: cover;
+  margin-top: 2.5vw;
+ }
+ .footer-box p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  color: rgba(14, 14, 14, 0.692);
+  margin-bottom: 1.7vw;
+ }
+ .footer-box a{
+  display: block;
+  text-decoration: none;
+  color: #111;
+  font-size:1vw;
+  padding-top: 0.4vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+ }
+ 
+ #footer{
+  text-align: right;
+ }
+ .p{
+  display: flex;
+  margin-top: 3vw;
+  gap: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  /* background-color: red; */
+  color: #11111194;
+ }
+ .end-p{
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 4vw;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 1vw 20vw 1vw 20vw;
+ }
+ .end-p p{
+  text-align: center;
+  line-height: 1.5vw;
+ }
 
 @media (max-width: 600px) {
   nav {
