@@ -49,6 +49,8 @@ nav {
 }
 .nav-right .right-inner i {
   padding: 2vw 1.5vw;
+  cursor: pointer;
+  color: #111111c2;
 }
 .nav-right a {
   text-decoration: none;
@@ -56,8 +58,16 @@ nav {
   font-weight: none;
   text-transform: uppercase;
   padding: 1.9vw 2.5vw;
+   
   color: black;
   font-size: 12px;
+}
+.nav-right a:hover{
+  color: rgba(0, 0, 0, 0.671);
+  /* border-bottom: 1px solid grey; */
+  text-decoration: underline;
+  cursor: pointer;
+ 
 }
 .page1 {
   min-height: 100vh;
@@ -154,24 +164,37 @@ nav {
 }
 .elem .dets{
   height: 50px;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 80%;
   z-index: 9;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #8AAAD6;
+  background-color: #111;
   transition: all ease 0.5s;
   position: absolute;
+  cursor: pointer;
 }
-.elem .dets:hover{
-  height: 200px;
+.dets:hover{
+  height: 150px;
+  bottom: -50%;
+  
 }
+.dets p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.836);
+  text-transform: uppercase;
+  padding: 1.1vw;
+  font-size: 1.4vw;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+ 
 
 /* page2 ending */
 
 .page3 {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   background-color: #f6f6f6;
   /* background-color: blue; */
@@ -214,11 +237,18 @@ nav {
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.87);
   font-size: 12px;
+  transition: all ease 0.2s;
+  
+}
+.page3 button:hover{
+  color: rgba(0, 0, 0, 0.671);
+  border-bottom: 1px solid grey;
+  cursor: pointer;
 }
 
 /* page2 ending */
 .page4 {
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   background-color: #f6f6f6;
   position: relative;
@@ -243,6 +273,7 @@ nav {
   /* height: 100%; */
   background-size: cover;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.1));
+  cursor: pointer;
 }
 .free-img p {
   text-align: center;
@@ -270,7 +301,7 @@ nav {
 /* page4 ending */
 
 .page5 {
-  min-height: 180vh;
+  min-height: 130vh;
   width: 100%;
   background-color: #f6f6f6;
   padding-top: 3vw;
@@ -287,7 +318,6 @@ nav {
   gap: 10px; /* Buttons ke beech spacing ke liye */
   padding: 10px; /* Scrollbar ke liye thoda padding */
   padding-left: 2vw;
-
   scroll-behavior: smooth;
    
 }
@@ -301,6 +331,7 @@ nav {
   border: none;
   margin-left: 5vw;
   padding-left: 3vw;
+  cursor: pointer;
 
 
 }
@@ -333,6 +364,7 @@ nav {
   letter-spacing: 0.2px;
   margin-left: 39vw;
   margin-top: 5vw;
+  cursor: pointer;
   
  }
  .page5 p{
@@ -364,6 +396,7 @@ nav {
   /* width: 100%; */
   background-size: contain;
   background-position: left;
+
  }
  .three-con:nth-child(1){
   background-color: transparent;
@@ -395,10 +428,10 @@ nav {
   font-size: 0.9vw;
   transition: all ease 0.2s;
   padding-bottom: 7px;
+  cursor: pointer;
  }
  .three-con button:hover{
   color: #111111b2;
-  /* text-decoration: underline; */
   border-bottom: 1px solid #111;
  }
 
@@ -454,6 +487,10 @@ nav {
   overflow: hidden;
   background-position: cover;
   margin-top: 2.5vw;
+  transition: all ease 0.5s;
+ }
+ .footer-box img:hover{
+  transform: rotate(360deg);
  }
  .footer-box p{
   font-family: Arial, Helvetica, sans-serif;
@@ -469,6 +506,10 @@ nav {
   padding-top: 0.4vw;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
+ }
+ .footer-box a:hover{
+  color: #111111b2;
+ 
  }
  
  #footer{
